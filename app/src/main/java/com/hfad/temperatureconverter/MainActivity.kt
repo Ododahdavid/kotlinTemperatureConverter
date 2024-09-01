@@ -96,10 +96,7 @@ class MainActivity : ComponentActivity() {
     @Preview(showBackground = true)
     @Composable
     fun PreviewMainActivity() {
-        /*Column {
-            Hello("friend")
-            Hello("everyone")
-        }*/
+
         MaterialTheme {
             Surface {
                 MainActivityContent()
